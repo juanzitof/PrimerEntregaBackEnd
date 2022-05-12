@@ -1,0 +1,150 @@
+
+  .cardsA-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .cardA {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .cardA .card_image {
+    width: inherit;
+    height: inherit;
+  }
+  
+  .cardA .card_image img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+  }
+  
+  .cardA .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .cardA:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }
+  
+  
+
+
+  .formul {
+    font-family: 'Montserrat', Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #74716f;
+    border: solid 3px #474544;
+    position: relative;
+  }
+
+
+.conteImg{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.form{
+  margin:2rem
+}
+  .titleForm{
+    color: #474544;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 4rem;
+  }
+  input[type='text'], [type='email'],[type='number'], textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+
+
+  #form_button {
+    background: rgb(233, 232, 232);
+    border: solid 2px #474544;
+    color: #474544;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .boton{
+    text-align: center;
+  }
+  #form_button:hover {
+    background: #74716f;
+    color: #F2F3EB;
+  };
+
+
+  .cardTimeReal{
+    width:80%;
+    height: auto;
+  }
+  .imgCont{
+    width: 80%;
+    height: auto;
+  }
+  .imgCard{
+    width: 10%;
+    height: 10%;
+  }
