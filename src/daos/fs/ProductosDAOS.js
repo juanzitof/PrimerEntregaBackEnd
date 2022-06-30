@@ -2,7 +2,7 @@ const ContenedorArchivos = require('../../contenedor/ContenedorArchivos')
 
 class ProductosDAO extends ContenedorArchivos{
     constructor(){
-        super('./__temporal__/productos.txt')
+        super('./productos.txt')
     }
 
     async listarProductos(){
